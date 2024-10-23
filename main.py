@@ -1,7 +1,10 @@
 import matplotlib.pyplot as plt
 import yfinance as yf
+import webbrowser
 
-# get stock data
+#href="https://medium.com/@kasperjuunge/yfinance-10-ways-to-get-stock-data-with-python-6677f49e8282"
+#get stock data
+
 data = yf.download(["MSFT","AAPL"], start="2020-01-01", end="2021-01-01")
 
 
